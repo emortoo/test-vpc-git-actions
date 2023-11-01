@@ -5,12 +5,12 @@ terraform {
       version = "5.16.1"
     }
   }
-
-  backend "s3" {
-    bucket = "emmas-terraform-remote-backend-s3"
-    key    = "dev/terraform.tfstate"
-    region = "us-east-1"
-  }
+  
+  //backend "s3" {
+   // bucket = "emma-terraform-remote-backend-s3"
+   // key    = "dev/terraform.tfstate"
+   // region = "us-east-1"
+ // }
 }
 
 provider "aws" {
