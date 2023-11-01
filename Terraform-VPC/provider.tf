@@ -5,7 +5,7 @@ terraform {
       version = "5.16.1"
     }
   }
-
+  
   //backend "s3" {
    // bucket = "emma-terraform-remote-backend-s3"
    // key    = "dev/terraform.tfstate"
